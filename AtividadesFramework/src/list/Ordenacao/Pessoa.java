@@ -32,6 +32,10 @@ public class Pessoa implements Comparable<Pessoa>{
     public double getAltura(){
         return altura;
     }
+    
+    public void imprimirPessoa() {
+        System.out.println("Nome: " + nome + ", Idade: " + idade + ", Altura: " + altura);
+    }
   
 }
 
