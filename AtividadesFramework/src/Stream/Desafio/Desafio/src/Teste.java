@@ -12,5 +12,12 @@ public class Teste {
         System.out.println(d6.checar());
         Desafio7 d7 = new Desafio7();
         System.out.println(d7.segundoMaior);
+        Desafio8 d8 = new Desafio8();
+        System.out.println(d8.somaTudo);
+        Desafio9 d9 = new Desafio9();
+        System.out.println(d9.temRepetidos + " " + d9.numerosRepetidos);
+        Desafio10 d10 = new Desafio10();
+        System.out.println(d10.multiplosImpares);
+
     }
 }
